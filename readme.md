@@ -10,14 +10,26 @@ Este projeto foi criado para o desafio de Clean Architecture do curso de go
 git clone https://github.com/elielbatiston/fullcycle_desafio_clean_arch_curso_go
 ```
 
-**Passo 3:** Vá para o terminal, acesse o diretório que você clonou o projeto e execute o comando abaixo:
+**Passo 2:** Vá para o terminal, acesse o diretório que você clonou o projeto e execute o comando abaixo:
 
 ```shell
 make migrate
 ```
 
-**Passo 3:** Ainda no diretório que você clonou o projeto, execute o comando abaixo:
+**Passo 3:** Acesse o diretorio cmd
 
 ```shell
-go run cmd/ordersystem/main.go
+cd cmd
+```
+
+**Passo 4:** Acesse o diretorio ordersystemcd
+
+```shell
+cd ordersystem
+```
+
+**Passo 5:** Suba o servidor com o comando abaixo
+
+```shell
+go run main.go wire_gen.go
 ```
