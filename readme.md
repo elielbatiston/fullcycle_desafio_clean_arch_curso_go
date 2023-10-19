@@ -91,3 +91,9 @@ c. Digite o comando abaixo para listar as orders
 ```shell
 call ListOrders
 ``` 
+
+## Observaçõs:
+
+1. Este documento leva em consideração que você tem o VSCode instalado em sua máquina com a extensão Rest Client instalada
+2. Este documento leva em consideração que você tem o evans instalado em sua máquina
+3. Não fazia parte do desafio utilizar Docker
