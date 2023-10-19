@@ -45,6 +45,8 @@ Acesse o diretorio api dentro do VSCode e envie a requisição de POST e depois 
 Acesse a URL http://localhost:8080 e utilize o playground pra executar
 
 a. Exemplo para criar orders
+
+```
 mutation createOrder {
 	createOrder(input:{id:"el1",Price:50.0, Tax:10.0}){
     id
@@ -53,8 +55,11 @@ mutation createOrder {
     FinalPrice
   }
 }
+```
 
 b. Consultar as orders criadas
+
+```
 query queryOrders {
   ListOrders {
     id
@@ -63,6 +68,7 @@ query queryOrders {
     FinalPrice
   }
 }
+```
 
 3. gRPC
 
