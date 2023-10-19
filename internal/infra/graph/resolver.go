@@ -8,4 +8,5 @@ import "github.com/elielbatiston/fullcycle_desafio_clean_arch_curso_go/internal/
 
 type Resolver struct {
 	CreateOrderUseCase usecase.CreateOrderUseCase
+	ListOrdersUseCase  usecase.ListOrdersUseCase
 }
